@@ -4,7 +4,7 @@ import Logo from "../assets/Logo.png";
 const Footer = () => {
   
   return (
-    <div className='grid grid-cols-3 p-16 gap-x-10 bg-[#282828] text-white'>
+    <div className='grid grid-cols-1 gap-y-16 sm:gap-y-0  sm:grid-cols-3 p-8 lg:p-16 gap-x-5 lg:gap-x-10 bg-[#282828] text-white'>
         <div>
           <img className="w-36 aspect-square flex mx-auto" src={Logo} />
           <p className='text-center playwrite mt-4'>Experience opulent celebrations with our Luxury Banquets, redefining grandeur, elegance, and style.</p>

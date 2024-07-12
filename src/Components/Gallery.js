@@ -14,10 +14,10 @@ const Gallery = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-[#282828] py-20">
-        <h1 className='text-3xl text-[#d8ac47eb] playwrite text-center'>Timeless Moments at Ashtavinayak Banquets</h1>
+    <div className="flex flex-col items-center justify-center bg-[#282828] py-10 sm:py-20">
+        <h1 className='text-sm sm:text-3xl text-[#d8ac47eb] playwrite text-center'>Timeless Moments at Ashtavinayak Banquets</h1>
         <hr className='border-t-4 border-[#d8ac47eb] mt-5 mb-10 mx-auto w-2/12'/>
-      <Slider className="w-7/12" {...settings}>
+      <Slider className="lg:w-7/12 w-10/12" {...settings}>
          <img src={Image1}/>
          <img src={Image2}/>
          <img src={Image3}/>

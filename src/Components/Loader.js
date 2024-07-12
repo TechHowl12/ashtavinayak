@@ -18,7 +18,7 @@ const Loader = () => {
 
   return (
     <div className='bg-[#282828] flex justify-center items-center h-[100vh]'>
-      <h1 className='playwrite text-[#d8ac47eb] text-6xl'>
+      <h1 className='playwrite text-[#d8ac47eb] text-xl md:text-6xl'>
         {splitted.map((char, index) => (
           <span key={index} className='logo-char'>{char}</span>
         ))}
