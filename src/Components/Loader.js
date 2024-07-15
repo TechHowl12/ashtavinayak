@@ -1,7 +1,6 @@
 import gsap from 'gsap'
 import React from 'react'
 import { useGSAP } from "@gsap/react";
-import Logo from "../assets/Logo.png"
 
 const Loader = () => {
 

@@ -1,12 +1,12 @@
 import React from "react";
 import Form from "./Form";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Logo1.png";
 
 const Contact = () => {
   return (
     <div className="contact-bg gap-y-5 sm:gap-y-0 sm:gap-x-5 lg:gap-x-10 flex flex-col sm:flex-row justify-center p-5 lg:p-10">
       <div className="sm:w-1/2 bg-[#ffffff2a] rounded-lg p-5">
-        <img className="w-28 sm:w-36 aspect-square flex mx-auto" src={Logo} />
+        <img className="w-36 sm:w-48 sm:mt-10 aspect-video flex mx-auto" src={Logo} />
         <p className="lg:text-xl text-white mt-5 sm:mt-10 text-center">
           Picture-perfect weddings, alluring soirées, and corporate
           commémoration all find their home amidst the halls with a convenient
@@ -38,7 +38,7 @@ const Contact = () => {
           2nd Floor, Citi Mall, Kalyan Rd, near K V Pendharkar College, Azde
           Gaon, MIDC, Dombivli East, Mumbai, Dombivli, Maharashtra 421203
         </h1>
-        <h1 className="text-white flex gap-x-4 items-center mt-10 lg:text-xl">
+        <h1 className="text-white flex gap-x-4 items-center mt-10">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ const Contact = () => {
           </span>
           07947427419
         </h1>
-        <h1 className="text-white flex gap-x-4 items-center mt-10 lg:text-xl">
+        <h1 className="text-white flex gap-x-4 items-center mt-10">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
