@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="contact-bg gap-y-5 sm:gap-y-0 sm:gap-x-5 lg:gap-x-10 flex flex-col sm:flex-row justify-center p-5 lg:p-10">
       <div className="sm:w-1/2 bg-[#ffffff2a] rounded-lg p-5">
-        <img className="w-36 sm:w-48 sm:mt-10 aspect-video flex mx-auto" src={Logo} />
+        <img className="w-24 sm:w-36 sm:mt-10 flex mx-auto" src={Logo} />
         <p className="lg:text-xl text-white mt-5 sm:mt-10 text-center">
           Picture-perfect weddings, alluring soirées, and corporate
           commémoration all find their home amidst the halls with a convenient

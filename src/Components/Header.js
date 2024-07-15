@@ -28,7 +28,7 @@ const Header = () => {
             <h1 className='text-xs md:text-xl heading playwrite py-2'>Where Precious Moments are Perfectly Crafted</h1>
         </div>
         <div className='bg-[#282828] flex justify-center overflow-y-hidden items-center'>
-            <img className='w-36 sm:w-48 aspect-video my-2' src={Logo}/>
+            <img className='w-36 sm:w-36 my-3' src={Logo}/>
         </div>
     </nav>
   )
