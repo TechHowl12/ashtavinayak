@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='grid grid-cols-1 gap-y-16 sm:gap-y-0 items-center  sm:grid-cols-3 p-8 lg:p-16 gap-x-5 lg:gap-x-10 bg-[#282828] text-white'>
         <div>
           <img className="w-24 sm:w-36 flex mx-auto" src={Logo} />
-          <p className='text-center text-lg playwrite mt-4'>Experience opulent celebrations with our Luxury Banquets, redefining grandeur, elegance, and style.</p>
+          <p className='text-center text-lg mt-4'>Experience opulent celebrations with our Luxury Banquets, redefining grandeur, elegance, and style.</p>
         </div>
         <div>
             <h1 className='text-center uppercase mb-6 text-xl'>Address</h1>

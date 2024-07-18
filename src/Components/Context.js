@@ -36,10 +36,10 @@ const Context = () => {
             <p className="text-white mt-8 text-sm sm:text-lg md:text-center">At Ashtavinayak Banquet, velvet curtains drape the frame and chandeliers take to the sky. A stunning open-air patio surrounds two large indoor spaces, making it an ideal venue to host 50 to 600 guests seated and up to 1000 guests floating for any special occasion. Our state-of-the-art contemporary interiors create a versatile space for you to host events and functions of all kinds, whether intimate or grand, personal or professional.</p>
         </div>
         <div className='order-1 sm:order-1' data-scroll data-scroll-speed=".2">
-              <img src={Image1} className='block w-full'/>
+              <img loading='lazy' src={Image1} className='block w-full'/>
         </div>
         <div className='order-3 sm:order-4' data-scroll data-scroll-speed=".2">
-              <img src={Image3} className='block w-full'/>
+              <img loading='lazy' src={Image3} className='block w-full'/>
         </div>
         <div className='my-auto order-4 sm:order-3'>
             <h1 className='text-xl sm:text-4xl text-[#d8ac47eb] playwrite text-center'>A Bespoke Experience, Curated for You</h1>
@@ -53,7 +53,7 @@ const Context = () => {
             Having over four decades of experience in high-end, innovative, and personalized culinary services for celebrities and industrialists across the world, our esteemed catering partners bring you exceptional catering and hospitality for all your events and celebrations at Ashtavinayak Halls.</p>
         </div>
         <div className='order-5'>
-              <img data-scroll data-scroll-speed=".2" src={Image2} className='block w-full'/>
+              <img loading='lazy' data-scroll data-scroll-speed=".2" src={Image2} className='block w-full'/>
         </div>
     </div>
     </>
