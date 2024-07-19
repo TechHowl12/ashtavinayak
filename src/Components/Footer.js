@@ -1,17 +1,19 @@
-import React from 'react';
+import React from "react";
 import Logo from "../assets/Logo1.png";
 
 const Footer = () => {
-  
   return (
-    <div className='grid grid-cols-1 gap-y-16 sm:gap-y-0 items-center  sm:grid-cols-3 p-8 lg:p-16 gap-x-5 lg:gap-x-10 bg-[#282828] text-white'>
-        <div>
-          <img className="w-24 sm:w-36 flex mx-auto" src={Logo} />
-          <p className='text-center text-lg mt-4'>Experience opulent celebrations with our Luxury Banquets, redefining grandeur, elegance, and style.</p>
-        </div>
-        <div>
-            <h1 className='text-center uppercase mb-6 text-xl'>Address</h1>
-            <h1 className="text-white flex gap-x-4 items-center">
+    <div className="grid grid-cols-1 gap-y-16 sm:gap-y-0 items-center  sm:grid-cols-3 p-8 lg:p-16 gap-x-5 lg:gap-x-10 bg-[#282828] text-white">
+      <div>
+        <img className="w-24 sm:w-36 flex mx-auto" src={Logo} />
+        <p className="text-center text-lg mt-4">
+          Celebrate in grandeur with our Luxury Banquets - redefining the
+          definitive standard of opulence, elegance and style.
+        </p>
+      </div>
+      <div>
+        <h1 className="text-center uppercase mb-6 text-xl">Address</h1>
+        <h1 className="text-white flex gap-x-4 items-center">
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -74,19 +76,19 @@ const Footer = () => {
           </span>
           info@ashtavinayak.com
         </h1>
-        </div>
-        <div>
+      </div>
+      <div>
         <iframe
-        className="aspect-video"
+          className="aspect-video"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15520.909837055526!2d73.10581571222602!3d19.213206507654508!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be795aac78194f7%3A0x974f630cbf95e2df!2sAshtavinayaka%20Banquet%20Hall%3A%20Shauk%20Se%20Shakahari!5e0!3m2!1sen!2sin!4v1720621727931!5m2!1sen!2sin"
           allowfullscreen=""
           width="100%"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

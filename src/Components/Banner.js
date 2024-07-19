@@ -60,7 +60,7 @@ function Banner() {
       <Slider {...settings}>
         <div className='slide-1'>
           <div className="top-[50%] relative ">
-            <h1 className='text-white playwrite text-xs lg:text-3xl md:text-2xl'>Celebrate the Timeless Elegance of Your Next Event</h1>
+            <h1 className='text-white playwrite text-xs lg:text-3xl md:text-2xl'>Make Your Special Day an Unforgettable One</h1>
             <button onClick={handleScroll} className='px-6 py-2 bg-white mt-6 text-black text-sm hover:scale-110 transition-all'>
               ENQUIRE NOW
             </button>
@@ -68,7 +68,7 @@ function Banner() {
         </div>
         <div className='slide-2'>
           <div className="top-[50%] relative">
-            <h1 className='text-white playwrite text-xs lg:text-3xl md:text-2xl'>Transforming Dreams Into Reality – Book Your Magical Day!</h1>
+            <h1 className='text-white playwrite text-xs lg:text-3xl md:text-2xl'>The Perfect Venue for Grand Festivities</h1>
             <button onClick={handleScroll} className='px-6 py-2 bg-white mt-6 text-black text-sm hover:scale-110 transition-all'>
               ENQUIRE NOW
             </button>
@@ -76,7 +76,7 @@ function Banner() {
         </div>
         <div className='slide-3'>
           <div className="top-[50%] relative">
-            <h1 className='text-white playwrite text-xs lg:text-3xl md:text-2xl'>Where Every Detail Counts – Perfect Settings for Perfect Moments</h1>
+            <h1 className='text-white playwrite text-xs lg:text-3xl md:text-2xl'>Where Every Detail Exceeds Your Expectations</h1>
             <button onClick={handleScroll} className='px-6 py-2 bg-white mt-6 text-black text-sm hover:scale-110 transition-all'>
               ENQUIRE NOW
             </button>

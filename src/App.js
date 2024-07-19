@@ -7,7 +7,7 @@ import Gallery from "./Components/Gallery.js";
 import Contact from "./Components/Contact.js";
 import Footer from "./Components/Footer.js";
 import Loader from "./Components/Loader.js";
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 
 function App() {

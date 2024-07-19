@@ -8,9 +8,9 @@ const Contact = () => {
       <div className="sm:w-1/2 bg-[#ffffff2a] rounded-lg p-5">
         <img className="w-24 sm:w-36 sm:mt-10 flex mx-auto" src={Logo} />
         <p className="lg:text-xl text-white mt-5 sm:mt-10 text-center">
-          Picture-perfect weddings, alluring soirées, and corporate
-          commémoration all find their home amidst the halls with a convenient
-          address that allows guests to converge effortlessly.
+          Whether it’s a wedding, a corporate event, or an intimate family
+          function, our banquet hall will package all your precious memories for
+          that special day, making them unforgettable.
         </p>
         <hr className="border-t-4 border-[#d8ac47eb] mt-5 mb-10 mx-auto w-2/12" />
         <h1 className="text-white flex gap-x-4 items-center">
