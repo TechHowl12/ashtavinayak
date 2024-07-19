@@ -40,7 +40,23 @@ const Context = () => {
             where every event becomes an unforgettable experience.
           </p>
           <button className="bg-[#d8ac47eb] text-black uppercase px-6 py-2 mt-6 sm:w-2/4 mx-auto">
-            Download brochure
+            <a className="flex justify-center items-center" href="tel:+7947427419">
+            Call Now{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-6 ml-2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+              />
+            </svg>
+            </a>
           </button>
         </div>
       </div>
@@ -92,7 +108,7 @@ const Context = () => {
         </div>
         <div className="my-auto order-6">
           <h1 className="text-xl sm:text-2xl md:text-4xl text-[#d8ac47eb] playwrite text-center">
-          Award-Winning Catering Services
+            Award-Winning Catering Services
           </h1>
           <hr className="border-t-4 border-[#d8ac47eb] mt-5 mx-auto w-2/12" />
           <p className="text-white mt-8 text-sm md:text-lg md:text-center">
