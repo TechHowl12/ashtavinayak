@@ -39,7 +39,7 @@ const Context = () => {
             celebrations to intimate family gatherings. Ashtavinayak Halls,
             where every event becomes an unforgettable experience.
           </p>
-          <button className="bg-[#d8ac47eb] text-black uppercase px-6 py-2 mt-6 sm:w-2/4 mx-auto">
+          <button className="bg-[#d8ac47eb] text-black uppercase px-6 py-2 mt-6 sm:w-2/4 mx-auto hover:scale-110 transition-all">
             <a className="flex justify-center items-center" href="tel:+7947427419">
             Call Now{" "}
             <svg

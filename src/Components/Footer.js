@@ -3,6 +3,7 @@ import Logo from "../assets/Logo1.png";
 
 const Footer = () => {
   return (
+    <>
     <div className="grid grid-cols-1 gap-y-16 sm:gap-y-0 items-center  sm:grid-cols-3 p-8 lg:p-16 gap-x-5 lg:gap-x-10 bg-[#282828] text-white">
       <div>
         <img className="w-24 sm:w-36 flex mx-auto" src={Logo} />
@@ -88,6 +89,10 @@ const Footer = () => {
         ></iframe>
       </div>
     </div>
+    <div className="border-t-2 border-[#d8ac47eb] w-full py-6">
+      <h1 className="text-center text-slate-200">Copyright © HOWL Digital. All Rights Reserved</h1>
+    </div>
+    </>
   );
 };
 
