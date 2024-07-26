@@ -32,11 +32,11 @@ const Context = () => {
           </h1>
           <hr className="border-t-4 border-[#d8ac47eb] mt-5 mx-auto w-2/12" />
           <p className="text-white mt-8 text-sm md:text-lg px-5 sm:px-0 sm:text-center">
-            Located in the heart of Mumbai at MIDC Dombivli, Ashtavinayak
+            Located in the heart of Mumbai at MIDC Dombivli, Ashtavinayaka
             Banquet’s central location makes it easier for guests to travel from
             every corner of the city. This venue is the preferred choice for all
             events and functions, from lavish wedding receptions and festive
-            celebrations to intimate family gatherings. Ashtavinayak Halls,
+            celebrations to intimate family gatherings. Ashtavinayaka Halls,
             where every event becomes an unforgettable experience.
           </p>
           <button className="bg-[#d8ac47eb] text-black uppercase px-6 py-2 mt-6 sm:w-2/4 mx-auto hover:scale-110 transition-all">
@@ -67,7 +67,7 @@ const Context = () => {
           </h1>
           <hr className="border-t-4 border-[#d8ac47eb] mt-5 mx-auto w-2/12" />
           <p className="text-white mt-8 text-sm md:text-lg md:text-center">
-            Ashtavinayak Banquets provides you with an elegant space which is
+            Ashtavinayaka Banquets provides you with an elegant space which is
             yours to customize and design according to your celebrational needs.
             An exceptional venue which can host 600 guests seated and up to 1000
             guests floating which is versatile to accommodate your special

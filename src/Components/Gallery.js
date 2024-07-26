@@ -51,7 +51,7 @@ const Gallery = () => {
 
   return (
     <div className="flex flex-col items-center justify-center bg-[#282828] py-10 sm:py-20">
-      <h1 className='text-lg sm:text-4xl text-[#d8ac47eb] playwrite text-center'>Timeless Moments at Ashtavinayak Banquets</h1>
+      <h1 className='text-lg sm:text-4xl text-[#d8ac47eb] playwrite text-center'>Timeless Moments at Ashtavinayaka Banquets</h1>
       <hr className='border-t-4 border-[#d8ac47eb] mt-5 mb-10 mx-auto w-2/12'/>
       <Slider className="lg:w-7/12 w-10/12" {...settings}>
         {images.map((image, index) => (

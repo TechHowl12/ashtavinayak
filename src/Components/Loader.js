@@ -5,7 +5,7 @@ import Logo from "../assets/Logo1.png";
 
 const Loader = () => {
 
-  const text = "Ashtavinayak Banquets";
+  const text = "Ashtavinayaka Banquets";
   const splitted = text.split('');
 
   useGSAP(() => {
