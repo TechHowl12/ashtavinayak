@@ -56,7 +56,7 @@ const Footer = () => {
               />
             </svg>
           </span>
-          7947427419
+          7977020477
         </h1>
         <h1 className="text-white flex gap-x-4 items-center mt-6">
           <span>

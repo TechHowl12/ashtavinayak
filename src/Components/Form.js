@@ -47,6 +47,7 @@ const Form = () => {
     try {
       const response = await fetch(
         "https://script.google.com/macros/s/AKfycbxnO6v73Wo75HQWH-XgHggvO219GeFDywre1oSlrkTxSaYy0uhRHlRUOKsj9B5puoDi/exec",
+        
         {
           method: "POST",
           mode: "no-cors",
@@ -160,6 +161,7 @@ const Form = () => {
             className={`bg-transparent flex justify-center items-center border-2 w-1/2 mx-auto mt-4 border-[#d8ac47eb] px-6 py-2 ${isSubmitting ? 'bg-gray-300' : ''}`}
             type="submit"
             disabled={isSubmitting}
+            id="clicked"
           >
             {isSubmitting ? "Submitting..." : "SUBMIT"}
           </button>
