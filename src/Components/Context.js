@@ -108,16 +108,11 @@ const Context = () => {
         </div>
         <div className="my-auto order-6">
           <h1 className="text-xl sm:text-2xl md:text-4xl text-[#d8ac47eb] playwrite text-center">
-            Award-Winning Catering Services
+          Award-Winning Catering
           </h1>
           <hr className="border-t-4 border-[#d8ac47eb] mt-5 mx-auto w-2/12" />
           <p className="text-white mt-8 text-sm md:text-lg md:text-center">
-            Choose from a range of extraordinary menu options listed by
-            award-winning catering companies like Blue Sea Catering, Chetak
-            Caterers, and the renowned vegetarian catering company, Pavitra
-            Catering. Rest assured, your guests are bound to dine on delicious
-            food options provided by our catering partners with over four
-            decades of experience and culinary excellence
+          At Ashtavinayaka Banquets and Catering, we pride ourselves on delivering exceptional culinary experiences that exceed expectations. Our award-winning catering services have earned us a reputation for excellence. From intimate gatherings to grand celebrations, we create unforgettable moments with personalized menus, impeccable service, and attention to every detail.
           </p>
         </div>
         <div className="order-5">
