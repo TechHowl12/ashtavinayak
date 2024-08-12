@@ -112,7 +112,13 @@ const Context = () => {
           </h1>
           <hr className="border-t-4 border-[#d8ac47eb] mt-5 mx-auto w-2/12" />
           <p className="text-white mt-8 text-sm md:text-lg md:text-center">
-          At Ashtavinayaka Banquets and Catering, we pride ourselves on delivering exceptional culinary experiences that exceed expectations. Our award-winning catering services have earned us a reputation for excellence. From intimate gatherings to grand celebrations, we create unforgettable moments with personalized menus, impeccable service, and attention to every detail.
+          At Ashtavinayaka Banquets and Catering, we pride ourselves on delivering exceptional culinary experiences that exceed expectations. Our award-winning catering services have earned us a reputation for excellence.
+
+          <ul className="text-white mt-8 text-left text-sm md:text-lg md:ml-7">
+           <li>•⁠  ⁠Winner of the prestigious Golden Fork Award for Best Catering Company</li>
+           <li className="my-6">•⁠  ⁠Recognized as one of the Top Catering Companies.⁠</li>
+           <li>•⁠  ⁠Recipient of the coveted Catering Excellence Award</li>
+          </ul>
           </p>
         </div>
         <div className="order-5">
