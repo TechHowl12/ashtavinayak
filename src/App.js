@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "../src/Components/Header.js";
 import Banner from "./Components/Banner.js";
 import Context from "./Components/Context.js";
@@ -7,13 +8,11 @@ import Gallery from "./Components/Gallery.js";
 import Contact from "./Components/Contact.js";
 import Footer from "./Components/Footer.js";
 import Loader from "./Components/Loader.js";
+import Catering from "./Components/Catering.js";
 import { useEffect, useState } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
-
-  const locomotive = new LocomotiveScroll();
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -26,17 +25,26 @@ function App() {
 
   return (
     <>
-       {loading ? <Loader/> :(
-        <div>
+      {loading ? (
+        <Loader />
+      ) : (
+        <Router>
           <Header />
-          <Banner />
-          <Context />
-          <Gallery />
-          <Contact />
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Banner />
+                <Context />
+                <Gallery />
+                <Contact />
+              </>
+            } />
+            <Route path="/catering" element={<Catering />} />
+          </Routes>
           <Footer />
-        </div>
+        </Router>
       )}
-    </>
+    </>   
   );
 }
 

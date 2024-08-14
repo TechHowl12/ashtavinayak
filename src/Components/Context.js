@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image1 from "../assets/8.jpg";
 import Image2 from "../assets/19.jpg";
 import Image3 from "../assets/11.jpg";
+import { useNavigate } from "react-router-dom";
 const Context = () => {
   const [enableScroll, setEnableScroll] = useState(true);
 
@@ -17,6 +18,8 @@ const Context = () => {
     window.addEventListener("resize", checkSize);
     return () => window.removeEventListener("resize", checkSize);
   }, []);
+
+  const navigate = useNavigate();
 
   return (
     <>
@@ -131,6 +134,7 @@ const Context = () => {
           />
         </div>
       </div>
+      <button onClick={()=>navigate("/catering")} className="bg-[#d8ac47eb] flex justify-center text-black uppercase px-6 py-2 mt-6 sm:w-2/6 mx-auto hover:scale-110 transition-all">View our Catering</button>
     </>
   );
 };
