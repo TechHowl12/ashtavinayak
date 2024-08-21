@@ -75,7 +75,7 @@ const Footer = () => {
               />
             </svg>
           </span>
-          info@ashtavinayak.com
+          ashtavinayakahall@gmail.com
         </h1>
       </div>
       <div>
