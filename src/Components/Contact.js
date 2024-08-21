@@ -74,7 +74,7 @@ const Contact = () => {
               />
             </svg>
           </span>
-          info@ashtavinayak.com
+          ashtavinayakahall@gmail.com
         </h1>
       </div>
       <div className="sm:w-1/2">
