@@ -8,7 +8,6 @@ import Gallery from "./Components/Gallery.js";
 import Contact from "./Components/Contact.js";
 import Footer from "./Components/Footer.js";
 import Loader from "./Components/Loader.js";
-import Catering from "./Components/Catering.js";
 import { useEffect, useState } from "react";
 import LocomotiveScroll from "locomotive-scroll";
 
@@ -28,21 +27,14 @@ function App() {
       {loading ? (
         <Loader />
       ) : (
-        <Router>
+          <>
           <Header />
-          <Routes>
-            <Route path="/" element={
-              <>
-                <Banner />
-                <Context />
-                <Gallery />
-                <Contact />
-              </>
-            } />
-            <Route path="/catering" element={<Catering />} />
-          </Routes>
+          <Banner />
+          <Context />
+          <Gallery />
+          <Contact />
           <Footer />
-        </Router>
+          </>
       )}
     </>   
   );

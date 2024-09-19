@@ -55,7 +55,7 @@ const Contact = () => {
               />
             </svg>
           </span>
-          7977020477
+          <a href="tel:+7947427419">7977020477</a>
         </h1>
         <h1 className="text-white flex gap-x-4 items-center mt-10">
           <span>
@@ -74,7 +74,7 @@ const Contact = () => {
               />
             </svg>
           </span>
-          ashtavinayakahall@gmail.com
+          <a href="mailto:ashtavinayakahall@gmail.com">ashtavinayakahall@gmail.cosm</a>
         </h1>
       </div>
       <div className="sm:w-1/2">

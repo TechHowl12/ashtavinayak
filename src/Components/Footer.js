@@ -56,7 +56,7 @@ const Footer = () => {
               />
             </svg>
           </span>
-          7977020477
+          <a href="tel:+7947427419">7977020477</a>
         </h1>
         <h1 className="text-white flex gap-x-4 items-center mt-6">
           <span>
@@ -75,7 +75,7 @@ const Footer = () => {
               />
             </svg>
           </span>
-          ashtavinayakahall@gmail.com
+          <a href="mailto:ashtavinayakahall@gmail.com">ashtavinayakahall@gmail.com</a>
         </h1>
       </div>
       <div>
