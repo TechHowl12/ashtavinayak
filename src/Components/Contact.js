@@ -74,7 +74,7 @@ const Contact = () => {
               />
             </svg>
           </span>
-          <a href="mailto:ashtavinayakahall@gmail.com">ashtavinayakahall@gmail.cosm</a>
+          <a href="mailto:ashtavinayakahall@gmail.com">ashtavinayakahall@gmail.com</a>
         </h1>
       </div>
       <div className="sm:w-1/2">
