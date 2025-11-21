@@ -55,7 +55,7 @@ const Contact = () => {
               />
             </svg>
           </span>
-          <a href="tel:+7947427419">7977020477</a>
+          <a href="tel:+917208185772">7208185772</a>
         </h1>
         <h1 className="text-white flex gap-x-4 items-center mt-10">
           <span>
