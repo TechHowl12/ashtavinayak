@@ -75,7 +75,7 @@ function Banner() {
 
               <button className="bg-[#d8ac47eb] text-black uppercase px-6 py-2 hover:scale-110 transition-all">
                 <a
-                  className="flex justify-center items-center"
+                  className="flex justify-center items-center text-sm"
                   href="tel:+917208185772"
                 >
                   Call Now
@@ -115,7 +115,7 @@ function Banner() {
 
               <button className="bg-[#d8ac47eb] text-black uppercase px-6 py-2 hover:scale-110 transition-all">
                 <a
-                  className="flex justify-center items-center"
+                  className="flex justify-center items-center text-sm"
                   href="tel:+917208185772"
                 >
                   Call Now
@@ -155,7 +155,7 @@ function Banner() {
 
               <button className="bg-[#d8ac47eb] text-black uppercase px-6 py-2 hover:scale-110 transition-all">
                 <a
-                  className="flex justify-center items-center"
+                  className="flex justify-center items-center text-sm"
                   href="tel:+917208185772"
                 >
                   Call Now
