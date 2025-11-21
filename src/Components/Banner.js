@@ -68,7 +68,7 @@ function Banner() {
             <div className="flex justify-center items-center gap-4 w-full mt-6">
               <button
                 onClick={handleScroll}
-                className="px-6 py-2 bg-white text-black text-sm hover:scale-110 transition-all"
+                className="px-6 py-2.5 bg-white text-black text-sm hover:scale-110 transition-all"
               >
                 ENQUIRE NOW
               </button>
@@ -108,7 +108,7 @@ function Banner() {
             <div className="flex justify-center items-center gap-4 w-full mt-6">
               <button
                 onClick={handleScroll}
-                className="px-6 py-2 bg-white text-black text-sm hover:scale-110 transition-all"
+                className="px-6 py-2.5 bg-white text-black text-sm hover:scale-110 transition-all"
               >
                 ENQUIRE NOW
               </button>
@@ -148,7 +148,7 @@ function Banner() {
             <div className="flex justify-center items-center gap-4 w-full mt-6">
               <button
                 onClick={handleScroll}
-                className="px-6 py-2 bg-white text-black text-sm hover:scale-110 transition-all"
+                className="px-6 py-2.5 bg-white text-black text-sm hover:scale-110 transition-all"
               >
                 ENQUIRE NOW
               </button>

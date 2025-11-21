@@ -235,7 +235,7 @@ const Form = () => {
           <div className="relative max-w-lg w-full bg-white playwrite rounded-2xl shadow-lg border-2 border-[#d8ac47eb] p-6 z-10">
             <h2 className="text-xl font-semibold text-center">Enquiry Sent</h2>
             <h2 className="text-center mt-2">
-              Thank you! Your enquiry has been submitted successfully. We will get back to you soon.
+              Thank you for your confirmation. We’ve received your enquiry — our team will contact you within the next 8 hours.
             </h2>
 
             <div className="flex justify-center mt-4">
